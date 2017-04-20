@@ -1,5 +1,5 @@
-Template.afArrayField.helpers({
+Template.afArrayField_bootstrap3.helpers({
   panelClass: function() {
-    return this.panelClass || 'panel-default';
+    return this.atts.panelClass || 'panel-default';
   }
 });
